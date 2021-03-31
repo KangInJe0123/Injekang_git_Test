@@ -1,0 +1,29 @@
+1. gitBash 설치
+ - http://gitforwindows.org/
+  (for Window)
+2.New Repository
+ -http://github.com/
+ -New repository
+3.Root Folder 연결
+ -Web상의 Git과 연결된 Local Folder
+ -원하는 위치 새폴더생성,
+ -Command
+	git init
+	git remote add origin Repository address
+4.Push 전엔 Pull이 있다
+ -Command
+	git pull origin master(지정 해놓은 Repository에서 끌어옴)
+	git status(현재 Git 과의 상태를 Check!)
+	git add .(.까지임, 변경된 파일들을 모두 tracking)
+	git commit -m "message"(인식 할 수 있는commit을 달아줌)
+	git push origin +master(실제로 Git에 Push!)
+
+Pull - git pull origin master
+push - git status
+       - git add .
+       - git commit -m "massage"
+       - git push origin +master
+
+
+	
+
